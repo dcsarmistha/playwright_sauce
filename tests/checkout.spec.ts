@@ -1,4 +1,4 @@
-import { EcommercePage } from "../pages/Ecommercepage";
+import { EcommercePage } from "../pages/EcommercePage";
 import { Locator, expect, Page, test} from "@playwright/test";
 import { validCredentials } from "../test-data/loginData";
 import { checkoutPage } from "../pages/checkoutPage";
