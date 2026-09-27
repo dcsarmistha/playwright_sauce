@@ -1,5 +1,5 @@
 import { Locator, test, expect } from "@playwright/test";
-import { EcommercePage } from "../pages/Ecommercepage";
+import { EcommercePage } from "../pages/EcommercePage";
 import { validCredentials, lockedoutUser, performanceglitchUser } from "../test-data/loginData";
 test.beforeEach(async ({page})=>{
 const loginVar= new EcommercePage(page);
